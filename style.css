@@ -1,0 +1,398 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#index {
+  background: rgb(0, 0, 0);
+}
+
+#index .container header {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+#index .container header .container-header {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#index .container header .container-header h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#index .container header .container-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+#index .container header .container-header nav ul li a {
+  text-decoration: none;
+  color: rgb(206, 38, 38);
+  margin: 0 15px;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+#index .container header .container-header nav ul a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#index .container header .container-header .icon-social a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin-left: 10px;
+  transition: 0.4s;
+  font-size: 25px;
+}
+
+#index .container header .container-header .icon-social a:hover {
+  color: rgb(206, 38, 38);
+}
+
+#index .container header .container-header .selected {
+  color: rgb(206, 38, 38);
+}
+
+#index .container .presentation {
+  max-width: 1100px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#index .container .presentation .welcome {
+  font-size: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 20px;
+  color: #fff;
+}
+
+#index .container .presentation h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#index .container .presentation h2 span {
+  color: rgb(206, 38, 38);
+  text-decoration: double;
+  font-size: 80px;
+}
+
+#index .container .presentation .description {
+  max-width: 512px;
+  margin: 20px auto;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+}
+
+#index .container .presentation a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px 25px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 50px;
+  font-weight: bold;
+  color: rgb(206, 38, 38);
+  transition: 0.7s;
+}
+
+#index .container .presentation a:hover {
+  background-color: rgb(206, 38, 38);
+  color: rgb(255, 255, 255);
+}
+
+#icon-navi {
+  color: rgb(0, 0, 0);
+  display: none;
+}
+
+/* SOBRE MI */
+
+#about {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  padding: 100px 15px;
+}
+
+#about .container-picture {
+  max-width: 1000px;
+  margin-right: 20px;
+}
+
+#about .container-picture img {
+  border: 2px solid;
+  margin: 0px auto;
+  max-width: 1000px;
+  padding: 2px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: azure;
+}
+
+#about .about {
+  margin: 0 40px;
+}
+
+#about .about .section-tittle {
+  font-size: 35px;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 20px;
+  text-decoration: underline;
+  text-decoration-color: rgb(160, 150, 150);
+  text-decoration-thickness: 8px;
+}
+
+#about .about h2 {
+  color: rgb(206, 38, 38);
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+#about .about h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#about .about h4 {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#about .about p {
+  font-size: 15px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+#about .about a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px 25px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 50px;
+  font-weight: bold;
+  color: rgb(206, 38, 38);
+  transition: 0.7s;
+}
+
+#about .about a:hover {
+  background-color: rgb(206, 38, 38);
+  color: rgb(255, 255, 255);
+}
+
+/* Section portfolio */
+
+#portfolio {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+
+#portfolio .container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+#portfolio .section-tittle {
+  color: #fff;
+  font-size: 35px;
+  font-weight: bolder;
+  font-style: italic;
+  letter-spacing: 20px;
+  text-decoration: underline;
+  text-decoration-color: rgb(206, 38, 38);
+  text-decoration-thickness: 8px;
+}
+
+#portfolio .container .row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 30px auto;
+}
+
+#portfolio .container .row .proyect {
+  max-width: 512px;
+  background-color: #fff;
+  border: 5px row rgb(153, 51, 204);
+  border-radius: 0.5em;
+  margin: 0 10px;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+#portfolio .container .row .proyect .info {
+  width: 100%;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+#portfolio .container .row .proyect .info h4 {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+#portfolio .container .row .proyect .info p {
+  text-align: justify;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#portfolio .container .row .proyect iframe {
+  max-width: 80%;
+}
+
+#portfolio .container .row .proyect:hover {
+  box-shadow: 0 0 35px rgb(255, 0, 0);
+}
+
+#portfolio .container .row .proyect:hover iframe {
+  filter: none;
+}
+
+#portfolio .container .row .proyect a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 10px;
+  background-color: rgb(220, 220, 220);
+  border-radius: 50px;
+  font-weight: bold;
+  color: rgb(206, 38, 38);
+  transition: 0.7s;
+  margin-top: 10px;
+}
+
+#portfolio .container .row .proyect a:hover {
+  background-color: rgb(206, 38, 38);
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  background-color: rgb(206, 38, 38);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  margin: 5px;
+  font-size: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+  .icon-social {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.responsive {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 10px 0;
+  }
+
+  nav.responsive ul {
+    display: block;
+    text-align: center;
+  }
+
+  nav.responsive ul li {
+    margin: 5px 0;
+  }
+
+  #icon-navi {
+    display: block;
+    transition: 0.3s;
+  }
+  #icon-navi:hover {
+    color: rgb(206, 38, 38);
+    cursor: pointer;
+  }
+
+  #index .container .presentation h2 {
+    font-size: 40px;
+  }
+
+  #about {
+    padding: 50px 0;
+    display: block;
+  }
+
+  #about .container-picture {
+    max-width: 200px;
+    margin: auto;
+  }
+
+  #about .container-picture img {
+    padding: 10px;
+  }
+
+  #about .about .section-tittle {
+    text-align: center;
+  }
+
+  #about .about h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #portfolio {
+    padding: 50px 0;
+  }
+
+  #portfolio .container .row {
+    display: block;
+  }
+
+  #portfolio .container .row .proyect {
+    margin: 10px auto;
+  }
+}
