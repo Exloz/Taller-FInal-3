@@ -233,6 +233,16 @@ html {
   text-decoration-thickness: 8px;
 }
 
+#portfolio .container .separador {
+  background-color: rgb(206, 38, 38);
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+  margin: 30px;
+}
+
 #portfolio .container .row {
   display: flex;
   justify-content: space-between;
@@ -243,7 +253,7 @@ html {
 #portfolio .container .row .proyect {
   max-width: 512px;
   background-color: #fff;
-  border: 5px row rgb(153, 51, 204);
+  border: 5px row rgb(206, 38, 38);
   border-radius: 0.5em;
   margin: 0 10px;
   padding: 5px 10px;
